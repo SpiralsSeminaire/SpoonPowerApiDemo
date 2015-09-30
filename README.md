@@ -9,6 +9,11 @@ Demos
 You can launch 2 demos: imaging and ninja
 
 ```bash
+docker build -t spoon/openwayback openwayback
+docker run -i -t spoon/openwayback /bin/bash
+```
+
+```bash
 docker build -t spoon/imaging imaging
 docker run -i -t spoon/imaging /bin/bash
 ```
@@ -18,7 +23,7 @@ docker build -t spoon/ninja ninja
 docker run -i -t spoon/ninja /bin/bash
 ```
 
-These commands create a docker image to configure the open source project imaging or ninja with all dependencies needed.
+These commands create a docker image to configure the open source project imaging, ninja or openwayback with all dependencies needed.
 
 In another terminal, you must launch powerapi on the java pid:
 
