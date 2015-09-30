@@ -6,11 +6,11 @@ This project contains the demo which uses Spoon and PowerApi together on open so
 Demos
 -----
 
-You can launch 2 demos: vraptor and ninja
+You can launch 2 demos: imaging and ninja
 
 ```bash
-docker build -t spoon/vraptor vraptor
-docker run -i -t spoon/vraptor /bin/bash
+docker build -t spoon/imaging imaging
+docker run -i -t spoon/imaging /bin/bash
 ```
 
 ```bash
@@ -18,7 +18,7 @@ docker build -t spoon/ninja ninja
 docker run -i -t spoon/ninja /bin/bash
 ```
 
-These commands create a docker image to configure the open source project vraptor or ninja with all dependencies needed.
+These commands create a docker image to configure the open source project imaging or ninja with all dependencies needed.
 
 In another terminal, you must launch powerapi on the java pid:
 
