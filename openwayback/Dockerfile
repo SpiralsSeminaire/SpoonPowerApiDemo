@@ -36,7 +36,7 @@ RUN cd /root && git clone https://github.com/DIVERSIFY-project/maven-diversifier
 RUN cd /root/maven-diversifier && mvn clean install -Dmaven.test.skip=true
 
 # Get the repository
-RUN cd /root && git clone https://github.com/SpiralsSeminaire/vraptor.git
+RUN cd /root && git clone https://github.com/SpiralsSeminaire/openwayback.git
 
 # Connect to this docker and make what you want!
-CMD ["/bin/bash"]
+CMD ["bash"]
